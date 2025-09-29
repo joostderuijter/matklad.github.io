@@ -64,9 +64,9 @@ behavior of version resolvers.
   * * *
 
 Notably, if you are a library maintainer, SemVer isn't about you either. When deciding between major
-and minor, you shouldn't be thinking about your _direct_ dependents. They knowingly use your
+and minor, you shouldn't be thinking about your _direct_ dependants. They knowingly use your
 library, so they are capable of making informed decisions and will manage just fine. The problem is
-your transitive dependents. If you release a new major version, dependencies of some application up
+your transitive dependants. If you release a new major version, dependencies of some application up
 the stack could get wedged if somewhere in its dependencies tree there are both versions of your
 library which need interoperable types.
 
